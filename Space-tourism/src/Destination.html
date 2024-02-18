@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination</title>
+    <link rel="stylesheet" href="../styles/Destination.css" />
+    <link rel="stylesheet" href="../styles/Common.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main">
+      <nav class="nav-bar">
+        <img src="../assets/shared/logo.svg" alt="logo" />
+        <div class="hr-line"></div>
+        <ul class="nav-options">
+          <li class="nav-option nav-hover">
+            <a href="./Home.html"><strong>00</strong> Home</a>
+          </li>
+          <li class="nav-option nav--active">
+            <a href="./Destination.html"><strong>01</strong> Destination</a>
+          </li>
+          <li class="nav-option nav-hover">
+            <a href="./Crew.html"><strong>02</strong> Crew</a>
+          </li>
+          <li class="nav-option nav-hover">
+            <a href="./Technology.html"><strong>03</strong> Technology</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section-destination container">
+        <div class="section-heading">
+          <span class="heading-four">01</span>
+          <h4 class="heading-four">pick your destination</h4>
+        </div>
+        <div class="destination">
+          <div class="destination-img-container">
+            <img
+              src="../assets/destination/image-moon.png"
+              alt="picture of moon"
+              class="destination-img"
+              id="destinationImage"
+            />
+          </div>
+          <div class="destination-tab">
+            <ul class="destination-options">
+              <li class="destination-option nav--active" id="moon">moon</li>
+              <li class="destination-option nav-hover" id="mars">mars</li>
+              <li class="destination-option nav-hover" id="europa">europa</li>
+              <li class="destination-option nav-hover" id="titan">titan</li>
+            </ul>
+            <div class="destination-info">
+              <h1 class="destination-title heading-one" id="destinationTitle">
+                <!-- moon -->
+              </h1>
+              <p
+                class="destination-description body-text"
+                id="destinationContent"
+              >
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                nisi voluptates quasi quidem eum aspernatur facere velit ex
+                soluta minus. Possimus deleniti adipisci illum dolores earum
+                repellendus dignissimos veniam obcaecati. -->
+              </p>
+            </div>
+            <ul class="dist-time">
+              <li class="list-item">
+                <span class="subheading-two">avg. distance</span>
+                <p class="subheading-one" id="destDist">
+                  <!-- 384,400 KM -->
+                </p>
+              </li>
+              <li class="list-item">
+                <span class="subheading-two">est. travel time</span>
+                <p class="subheading-one" id="destTime">
+                  <!-- 3 days -->
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+    <script src="../scripts/Destination.js"></script>
+  </body>
+</html>

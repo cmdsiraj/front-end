@@ -1,0 +1,56 @@
+/*
+  styles
+  colors: 
+  #0b0d17
+  #d0d6f9
+  #ffffff
+
+  Typography: 150px / 100px / 56px / 32px /  28px / 14px / 16px
+   letter-spacing: 4.75 / 2.35 / 2.7
+
+ */
+
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+}
+
+/* Hero Section */
+
+.section-hero {
+  margin-top: 16rem;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12rem;
+  align-items: center;
+}
+
+.hero-container h5 {
+  text-transform: uppercase;
+}
+
+.button-container {
+  margin: 0 auto;
+}
+
+.explore-button a:link,
+.explore-button a:visited {
+  color: #0b0d17;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.explore-button {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  transition: all 0.4s;
+}
+
+.explore-button:hover {
+  box-shadow: 0 0 0 6rem rgba(255, 255, 255, 0.1);
+}

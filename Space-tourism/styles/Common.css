@@ -1,0 +1,138 @@
+/*
+  styles
+  colors: 
+  #0b0d17
+  #d0d6f9
+  #ffffff
+
+  Typography: 150px / 100px / 56px / 32px /  28px / 14px / 16px
+   letter-spacing: 4.75 / 2.35 / 2.7
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bellefair", sans-serif;
+  background-size: cover;
+  color: white;
+}
+
+.heading-one {
+  font-size: 15rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading-two {
+  font-size: 10rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading-three {
+  font-size: 5.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading-four {
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.heading-five {
+  font-family: "Barlow Condensed", "Bellefair", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  letter-spacing: 0.475rem;
+  text-transform: uppercase;
+}
+
+.subheading-one {
+  font-size: 2.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subheading-two {
+  font-family: "Barlow Condensed", "Bellefair", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.235rem;
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+/* general */
+
+.nav--active {
+  border-bottom: 3px solid #fff;
+}
+
+.nav-hover:hover {
+  border-bottom: 3px solid rgb(225, 225, 225, 0.5);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  padding-left: 4rem;
+  margin-top: 4rem;
+}
+
+.hr-line {
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+}
+
+.nav-options {
+  display: flex;
+  list-style: none;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 0 6%;
+  margin-left: -7rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.nav-option {
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 4rem 0;
+  cursor: pointer;
+}
+
+.nav-option a:link,
+.nav-option a:visited {
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+}

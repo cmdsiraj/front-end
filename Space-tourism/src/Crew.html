@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crew</title>
+    <link rel="stylesheet" href="../styles/Common.css" />
+    <link rel="stylesheet" href="../styles/Crew.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main">
+      <nav class="nav-bar">
+        <img src="../assets/shared/logo.svg" alt="logo" />
+        <div class="hr-line"></div>
+        <ul class="nav-options">
+          <li class="nav-option nav-hover">
+            <a href="./Home.html"><strong>00</strong> Home</a>
+          </li>
+          <li class="nav-option nav-hover">
+            <a href="./Destination.html"><strong>01</strong> Destination</a>
+          </li>
+          <li class="nav-option nav--active">
+            <a href="./Crew.html"><strong>02</strong> Crew</a>
+          </li>
+          <li class="nav-option nav-hover">
+            <a href="./Technology.html"><strong>03</strong> Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-crew container">
+      <div class="info-section">
+        <div class="section-heading">
+          <span class="heading-four">02</span>
+          <h4 class="heading-four">Meet Your crew</h4>
+        </div>
+        <div class="info">
+          <h3 class="heading-four designation" id="designation">Commander</h3>
+          <h2 class="heading-three name" id="name">dougals harey</h2>
+          <p class="body-text" id="info">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
+          </p>
+        </div>
+        <ul class="dots">
+          <li class="dot dot--active" id="dot1"></li>
+          <li class="dot dot--hover" id="dot2"></li>
+          <li class="dot dot--hover" id="dot3"></li>
+          <li class="dot dot--hover" id="dot4"></li>
+        </ul>
+      </div>
+      <div class="img-section">
+        <img
+          src="../assets/crew/image-douglas-hurley.png"
+          alt="image of commander dougals hurley"
+          class="img"
+          id="img"
+        />
+      </div>
+    </section>
+    <script src="../scripts/Crew.js"></script>
+  </body>
+</html>

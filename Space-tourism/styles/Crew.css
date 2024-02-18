@@ -1,0 +1,72 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../assets/crew/background-crew-desktop.jpg");
+  overflow: hidden;
+}
+
+.section-crew {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 14rem;
+  margin-top: 4rem;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 3.4rem;
+}
+
+.section-heading span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #444;
+}
+
+.designation {
+  color: #888;
+  margin-bottom: 1.4rem;
+}
+
+.name {
+  margin-bottom: 4rem;
+}
+
+.img {
+  height: 88%;
+  /* margin-left: auto; */
+}
+
+.dots {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot--hover:hover {
+  background-color: #888;
+}
+
+.dot--active {
+  background-color: #fff;
+}
